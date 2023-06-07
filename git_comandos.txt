@@ -1,0 +1,27 @@
+git init 				       -> Inicializar o repositório git local
+git add 				       -> Ativar o modo de rastreio.
+git status  				       -> Exibe o status.
+git commit -m "Criação da classe principal"    -> Regitrar o comentário.
+git commit -am "Entrada de dados pelo usuario" -> 
+git log                                        -> Histórico de commit.
+git log --oneline                              -> Exibe o historico em uma única linha.
+git log -n 1                                   -> Limitar a quantidade de commits, exibindo apenas a última linha.
+git log -n 1 --oneline
+git add .                                      -> rastreia todos os arquivos.
+git branch - > exibe as branch
+git branch -M main -> Alterando o nome da branch. De Master para main.
+git checkout -b minha-primeira-branch
+git branch -a - exibe todas as branch, incluse a remota. 
+
+git remote add origin https://github.com/Jackson-Araujo/exemplo-git.git
+git branch -M main
+git push -u origin main
+git pull 
+git fetch        
+
+git push origin                                 -> 
+
+git config credential.helper store
+https://horadecodar.com.br/como-remover-as-credenciais-do-git/
+https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0
+
