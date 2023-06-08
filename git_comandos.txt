@@ -24,4 +24,18 @@ git push origin                                 ->
 git config credential.helper store
 https://horadecodar.com.br/como-remover-as-credenciais-do-git/
 https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0
+----------------------------
+* EXIBIR OS COMMITS ATRAVES DO MODO GRAFICO
+gitk
 
+* EXIBIR O CODIGO E A MENSAGEM DE CADA COMMIT:
+git log --pretty=oneline 
+
+* EDITAR O COMMIT MAIS RECENTE:
+git commit --amend -am "Inserção de novas linhas de comando ao txt (editado)"
+
+* REMOVER O ARQUIVO DA STAGE AREA:
+git restore --stage noedoarquivo.txt
+
+* REVERTER ALTERACAO DO ARQUIVO:
+git restore nomedoarquivo.extensao
