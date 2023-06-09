@@ -52,3 +52,8 @@ git config --global --unset-all user.name
 * ENVIAR PARA O GIT HUB 
 git push origin crud-usuario
 
+* 
+git pull --rebase origin main
+
+* 
+git push origin +nomedabranch
